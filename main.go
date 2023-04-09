@@ -1,14 +1,14 @@
 package main
 
 import (
-	"algdb/Cluster"
-	"algdb/Raft"
-	"algdb/algorand"
-	"algdb/blockqueue"
-	"algdb/client"
-	"algdb/server"
-	"algdb/serverExec"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/Cluster"
+	"github.com/yan259128/alg_bcDB/Raft"
+	"github.com/yan259128/alg_bcDB/algorand"
+	"github.com/yan259128/alg_bcDB/blockqueue"
+	"github.com/yan259128/alg_bcDB/client"
+	"github.com/yan259128/alg_bcDB/server"
+	"github.com/yan259128/alg_bcDB/serverExec"
 	"log"
 	"os"
 )

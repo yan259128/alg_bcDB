@@ -1,10 +1,10 @@
 package Raft
 
 import (
-	"algdb/Cluster"
-	"algdb/txpool"
-	"algdb/util"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/Cluster"
+	"github.com/yan259128/alg_bcDB/txpool"
+	"github.com/yan259128/alg_bcDB/util"
 	"log"
 	"net/http"
 	"net/rpc"

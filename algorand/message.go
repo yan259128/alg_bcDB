@@ -1,11 +1,11 @@
 package algorand
 
 import (
-	"algdb/common"
-	"algdb/util"
 	"bytes"
 	"encoding/json"
 	"errors"
+	"github.com/yan259128/alg_bcDB/common"
+	"github.com/yan259128/alg_bcDB/util"
 )
 
 // 定义信息类型

@@ -1,10 +1,10 @@
 package algorand
 
 import (
-	"algdb/blockchain/blockchain_data"
 	"bytes"
 	"encoding/gob"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
 	"log"
 )
 

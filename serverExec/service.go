@@ -1,11 +1,11 @@
 package serverExec
 
 import (
-	"algdb/server"
-	"algdb/serverExec/service"
-	"algdb/util"
 	"context"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/server"
+	"github.com/yan259128/alg_bcDB/serverExec/service"
+	"github.com/yan259128/alg_bcDB/util"
 	"log"
 	"net"
 	"strconv"

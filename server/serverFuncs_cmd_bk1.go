@@ -1,10 +1,10 @@
 package server
 
 import (
-	"algdb/GRPC"
-	"algdb/blockchain/blockchain_data"
-	"algdb/blockchain/blockchain_table"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/GRPC"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_table"
 	"time"
 )
 

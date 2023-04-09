@@ -1,12 +1,12 @@
 package server
 
 import (
-	"algdb/GRPC"
-	"algdb/blockchain/blockchain_data"
-	"algdb/blockchain/blockchain_table"
-	"algdb/cache"
-	"algdb/txpool"
-	"algdb/userManage"
+	"github.com/yan259128/alg_bcDB/GRPC"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_table"
+	"github.com/yan259128/alg_bcDB/cache"
+	"github.com/yan259128/alg_bcDB/txpool"
+	"github.com/yan259128/alg_bcDB/userManage"
 	"sync"
 )
 

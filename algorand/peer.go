@@ -1,13 +1,13 @@
 package algorand
 
 import (
-	"algdb/Cluster"
-	BcGrpc "algdb/Proto/blockchain"
-	"algdb/blockchain/blockchain_data"
-	"algdb/util"
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/Cluster"
+	BcGrpc "github.com/yan259128/alg_bcDB/Proto/blockchain"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
+	"github.com/yan259128/alg_bcDB/util"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log"

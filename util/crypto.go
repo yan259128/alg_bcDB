@@ -1,11 +1,11 @@
 package util
 
 import (
-	"algdb/common"
 	"crypto"
 	"crypto/rand"
 	"fmt"
 	"github.com/r2ishiguro/vrf/go/vrf_ed25519"
+	"github.com/yan259128/alg_bcDB/common"
 	"golang.org/x/crypto/ed25519"
 )
 

@@ -1,14 +1,14 @@
 package server
 
 import (
-	"algdb/Cluster"
-	"algdb/GRPC"
-	"algdb/Raft"
-	"algdb/algorand"
-	"algdb/util"
 	"bufio"
 	"bytes"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/Cluster"
+	"github.com/yan259128/alg_bcDB/GRPC"
+	"github.com/yan259128/alg_bcDB/Raft"
+	"github.com/yan259128/alg_bcDB/algorand"
+	"github.com/yan259128/alg_bcDB/util"
 	"log"
 	"os"
 	"strconv"

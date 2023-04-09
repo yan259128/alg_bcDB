@@ -1,4 +1,4 @@
-module algdb
+module github.com/yan259128/alg_bcDB
 
 go 1.18
 

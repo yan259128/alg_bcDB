@@ -1,12 +1,12 @@
 package algorand
 
 import (
-	"algdb/blockchain/blockchain_data"
-	"algdb/common"
-	"algdb/util"
 	"bytes"
 	"crypto/sha256"
 	"errors"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
+	"github.com/yan259128/alg_bcDB/common"
+	"github.com/yan259128/alg_bcDB/util"
 	"log"
 	"math/big"
 	"math/rand"

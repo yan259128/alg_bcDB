@@ -1,7 +1,6 @@
 package userManage
 
 import (
-	"algdb/util"
 	"bytes"
 	"crypto/ecdsa"
 	"crypto/elliptic"
@@ -10,6 +9,7 @@ import (
 	"encoding/gob"
 	"errors"
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/yan259128/alg_bcDB/util"
 	"golang.org/x/crypto/ripemd160"
 	"log"
 	"os"

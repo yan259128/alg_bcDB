@@ -1,7 +1,7 @@
 package GRPC
 
 import (
-	BcGrpc "algdb/Proto/blockchain"
+	BcGrpc "github.com/yan259128/alg_bcDB/Proto/blockchain"
 	"google.golang.org/grpc"
 	"log"
 	"net"

@@ -1,11 +1,11 @@
 package cache
 
 import (
-	"algdb/blockchain/blockchain_data"
-	"algdb/blockchain/blockchain_table"
 	"bytes"
 	"errors"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
+	"github.com/yan259128/alg_bcDB/blockchain/blockchain_table"
 	"sync"
 )
 

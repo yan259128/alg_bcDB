@@ -1,12 +1,12 @@
 package blockchain_table
 
 import (
-	"algdb/MerkleTree"
-	"algdb/util"
 	"bytes"
 	"crypto/sha256"
 	"encoding/gob"
 	"fmt"
+	"github.com/yan259128/alg_bcDB/MerkleTree"
+	"github.com/yan259128/alg_bcDB/util"
 	"log"
 	"time"
 )

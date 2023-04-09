@@ -1,9 +1,9 @@
 package Raft
 
 import (
-	"algdb/Cluster"
-	"algdb/txpool"
-	"algdb/util"
+	"github.com/yan259128/alg_bcDB/Cluster"
+	"github.com/yan259128/alg_bcDB/txpool"
+	"github.com/yan259128/alg_bcDB/util"
 	"strconv"
 )
 

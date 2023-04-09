@@ -1,8 +1,8 @@
 package client
 
 import (
-	"algdb/server"
 	"github.com/gin-gonic/gin"
+	"github.com/yan259128/alg_bcDB/server"
 )
 
 var Cserver *server.Server
