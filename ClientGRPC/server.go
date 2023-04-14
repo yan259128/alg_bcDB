@@ -1,6 +1,5 @@
 package ClientGRPC
 
-import "C"
 import (
 	CGrpc "github.com/yan259128/alg_bcDB/Proto/client"
 	"google.golang.org/grpc"

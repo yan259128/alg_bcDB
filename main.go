@@ -29,7 +29,8 @@ func main() {
 	if os.IsNotExist(err) {
 		go s.Command()
 		go client.StartClient()
-		serverExec.ServerStart()
+		//serverExec.ServerStart()
+
 	} else {
 		// 启动Raft, 读取集群文件
 		cluster, err := Cluster.LoadClusterFile("./ClusterInfo")
@@ -54,7 +55,7 @@ func main() {
 
 		go s.Command()
 		go client.StartClient()
-		serverExec.ServerStart()
+		//serverExec.ServerStart()
 	}
 
 }
