@@ -48,6 +48,7 @@ func NewExecCommandService() ExecCommandService {
 
 //实现接口
 func (exec *Exec) Cmd(ctx context.Context, cmd *service.CommandRequest) (*service.CommandReply, error) {
+	//defer ctx.Done()
 
 	//s := &server.Server{}
 

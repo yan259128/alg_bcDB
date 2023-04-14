@@ -77,6 +77,10 @@ func (p *Peer) Gossip(typ int, data []byte) {
 		if err != nil {
 			log.Panic(err)
 		}
+		err = conn.Close()
+		if err != nil {
+			log.Panic(err)
+		}
 	}
 }
 

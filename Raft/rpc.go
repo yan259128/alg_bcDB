@@ -51,6 +51,11 @@ func (rf *Raft) broadcast(method string, args interface{}, fun func(ok bool)) {
 		}
 		//回调
 		fun(bo)
+		err = conn.Close()
+		if err != nil {
+			log.Panic(err)
+		}
+
 	}
 }
 

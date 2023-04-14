@@ -223,6 +223,10 @@ func JoinToCluster(ip string, port int, key string) error {
 	//clu.AddNodeToClusterFile(&node)
 	// 全局变量的覆盖
 	Cluster.LocalNode = clu
+	err = conn.Close()
+	if err != nil {
+		log.Panic(err)
+	}
 	return nil
 }
 
@@ -257,6 +261,10 @@ func SubmitDataTransaction(tx BCData.Transaction) {
 		if err != nil {
 			log.Panic(err)
 		}
+		err = conn.Close()
+		if err != nil {
+			log.Panic(err)
+		}
 	}
 }
 
@@ -284,6 +292,10 @@ func SubmitTableTransaction(tx BCTable.Transaction) {
 			PublicKey:        tx.PublicKey,
 			Signature:        tx.Signature,
 		})
+		if err != nil {
+			log.Panic(err)
+		}
+		err = conn.Close()
 		if err != nil {
 			log.Panic(err)
 		}

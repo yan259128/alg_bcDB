@@ -17,6 +17,7 @@ const (
 
 var (
 	addr = flag.String("addr", "192.168.1.101:8888", "the address to connect to")
+	//addr = flag.String("addr", "127.0.0.1:8888", "the address to connect to")
 	//name = flag.String("name", defaultName, "Name to greet")
 )
 
@@ -31,10 +32,10 @@ func main() {
 	c := service.NewServerClient(conn)
 	//ctx, _ := context.WithTimeout(context.Background(), time.Second*5)
 
-	username, password := "wxz", "123"
+	username, password := "test", "test"
 	//key := "1M9"
 	//value := "1M9"
-	taableName := "ta1"
+	taableName := "test"
 	//pli := "1M9ZdF3UwmTK7rZATPk5BA23m9V6K4Zn6u7"
 
 	a1, err := c.Cmd(context.Background(), &service.CommandRequest{LoginAccount: username, LoginPassword: password})
