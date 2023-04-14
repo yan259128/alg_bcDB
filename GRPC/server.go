@@ -38,7 +38,7 @@ func (s *Server) startService() {
 	// 注册服务
 	BcGrpc.RegisterBlockChainServiceServer(grpcServer, &Service{})
 	// 创建监听
-	listen, err := net.Listen("tcp", ":3301")
+	listen, err := net.Listen("udp", ":3301")
 	if err != nil {
 		log.Panic(err)
 	}
