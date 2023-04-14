@@ -1,6 +1,7 @@
 package server
 
 import (
+	"github.com/yan259128/alg_bcDB/ClientGRPC"
 	"github.com/yan259128/alg_bcDB/GRPC"
 	"github.com/yan259128/alg_bcDB/blockchain/blockchain_data"
 	"github.com/yan259128/alg_bcDB/blockchain/blockchain_table"
@@ -19,6 +20,7 @@ type Server struct {
 	TxPool     txpool.TxPool
 	Cache      cache.Cache
 	Grpc       GRPC.Server
+	ClientGrpc ClientGRPC.Server
 }
 
 func (s *Server) Init() {
@@ -28,4 +30,5 @@ func (s *Server) Init() {
 	s.Cache.Init(&s.dataChain, &s.tableChain)
 	s.TxPool.Init(&s.dataChain, &s.tableChain, &s.Cache)
 	s.Grpc.Init()
+	s.ClientGrpc.Init()
 }
